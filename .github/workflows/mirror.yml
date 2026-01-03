@@ -40,6 +40,9 @@ jobs:
           - image: postgis-windows
             repo: sokigo
             folder: postgresql-windows
+          - image: postgresql-windows
+            repo: sokigo
+            folder: postgresqls-windows
     permissions:
       contents: read
       packages: write
